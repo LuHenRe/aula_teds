@@ -9,7 +9,7 @@ dois = valor % 100 % 50 % 20 % 10 % 5 // 2
 um = valor % 100 % 50 % 20 % 10 % 5 % 2 // 1
 
 
-print(f"{valor}")
+print(valor)
 print(f"{cem} nota(s) de R$ 100,00")
 print(f"{cinquenta} nota(s) de R$ 50,00")
 print(f"{vinte} nota(s) de R$ 20,00")
