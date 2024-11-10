@@ -1,10 +1,12 @@
-cod_peca1 = int(input())
-num_peca1 = int(input())
-valor_peca1 = float(input())
+cod1, num1, valor1 = input().split()
+cod1 = int(cod1)
+num1 = int(num1)
+valor1 = float(valor1)
 
-cod_peca2 = int(input())
-num_peca2 = int(input())
-valor_peca2 = float(input())
+cod2, num2, valor2 = input().split()
+cod2 = int(cod2)
+num2 = int(num2)
+valor2 = float(valor2)
 
-montante = num_peca1 * valor_uni_peca1 + num_peca2 * valor_uni_peca2
+montante = num1 * valor1 + num2 * valor2
 print("VALOR A PAGAR: R$ {:.2f}".format(montante))
